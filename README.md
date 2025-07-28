@@ -1,8 +1,94 @@
-# Getting Started with Create React App
+# React TypeScript Starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React application with TypeScript, ESLint, Prettier, and other essential tools pre-configured for enterprise-level development.
 
-## Available Scripts
+## 🚀 Features
+
+- ⚛️ React 19 with TypeScript
+- 🛠️ ESLint with TypeScript support
+- 💅 Prettier for code formatting
+- 🔄 Import/export sorting
+- 🐶 Husky pre-commit hooks
+- 📦 Common utilities included (axios, lodash, classnames, date-fns)
+
+## 📦 Project Structure
+
+```
+src/
+├── app/
+│   ├── core/           # Singleton services, guards, interceptors
+│   ├── features/       # Feature modules (each feature is self-contained)
+│   ├── shared/         # Shared components, directives, pipes
+│   ├── app.component.jsx
+│   ├── app.routes.jsx
+│   └── app.module.jsx
+├── assets/            # Static assets (images, fonts, etc.)
+├── environments/      # Environment configurations
+├── styles/            # Global styles and themes
+└── utils/             # Utility functions and helpers
+```
+
+## 🛠 Development Setup
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Start development server**
+   ```bash
+   npm start
+   ```
+
+3. **Run tests**
+   ```bash
+   npm test
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🧰 Available Scripts
+
+In the project directory, you can run:
+
+| Script          | Description                                      |
+|-----------------|--------------------------------------------------|
+| `npm start`     | Runs the app in development mode                 |
+| `npm test`      | Launches the test runner                        |
+| `npm run build` | Builds the app for production                   |
+| `npm run lint`  | Runs ESLint on your code                        |
+| `npm run format`| Formats your code using Prettier                |
+| `npm run type-check` | Checks TypeScript types                     |
+| `npm run prepare` | Sets up Git hooks (run once after cloning)     |
+
+## 🔧 Code Quality
+
+This project uses:
+
+- **ESLint** for code linting
+- **Prettier** for code formatting
+- **TypeScript** for type safety
+- **Husky** for Git hooks
+- **lint-staged** for running linters on git staged files
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Built with ❤️ using [Create React App](https://github.com/facebook/create-react-app)
 
 In the project directory, you can run:
 

@@ -1,0 +1,10 @@
+node_modules
+build
+.next
+dist
+*.md
+*.json
+*.html
+*.css
+*.scss
+*.svg
